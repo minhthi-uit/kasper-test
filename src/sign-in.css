@@ -33,7 +33,9 @@
   .mr-10 {
     margin-right: 10px;
   }
-  
+  .ml-10 {
+    margin-left: 10px;
+  }
   .mb-15 {
     margin-bottom: 15px;
   }
@@ -67,7 +69,7 @@
   
   .heading {
     color: var(--black);
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
   }
   
@@ -88,11 +90,11 @@
   .cursor-pointer {
     cursor: pointer;
   }
-.auth-card {
+
+  .auth-card {
     width: 70vw;
     height: calc(100vh - 135px);
     background-color: var(--white);
-    border-radius: 10px;
     overflow: hidden;
     display: flex;
   }
@@ -114,7 +116,7 @@
   }
   
   .main-part {
-    padding: 40px 60px;
+    padding: 90px 60px;
   }
   
   .separator-wrapper {
@@ -134,7 +136,6 @@
   }
   
   .form-group {
-    /* padding-bottom: 25px; */
     display: flex;
     flex-direction: column;
   }
@@ -143,22 +144,6 @@
     color: var(--black);
     font-weight: 500;
     font-size: 14px;
-  }
-  
-  input {
-    border: none;
-    border-bottom: 1px solid var(--darkerGray);
-    color: var(--darkerGray);
-    padding: 10px 0px;
-  }
-  
-  input:focus {
-    outline: 0;
-    border-bottom: 1px solid var(--primary);
-  }
-  
-  input::placeholder {
-    color: var(--lightGray);
   }
   
   .secondary-class {
@@ -182,6 +167,7 @@
     padding: 12px 0px;
     border: none;
     align-items: center;
+    font-weight: 500;
   }
 
   .google-button {
@@ -189,9 +175,11 @@
     color: var(--black);
     border-radius: 0px;
     width: 100%;
-    padding: 12px 0px;
+    padding: 8px 0px;
     border: none;
-    align-items: center;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
   }
   
   @media only screen and (max-width: 1200px) {
