@@ -25,10 +25,10 @@ const Login = () => {
                 <img src={loginVector} alt=""/>
             </div>
         <div className="main-part">
-            <Typography class="heading">Welcome to Panorama, <br/> Sign In to Continue.</Typography>
+            <Typography class="heading">Welcome to Panorama,<br/>Sign In to Continue.</Typography>
             <Typography class="black fs-12 py-10">Don't have an account?{' '}
             <span className="secondary-class">Create a account</span>
-            <br/> It take less than a minute.
+            <br/> It takes less than a minute.
             </Typography>
         <div className="form-wrapper">
             <div className="form-group py-25">
@@ -47,7 +47,7 @@ const Login = () => {
                 placeholder="Enter your email"  size="small"/>
         </div>
 
-          <div className="form-group pb-5">
+        <div className="form-group pb-5">
             <label for="password">Password</label>
             <TextField id="outlined-basic" 
               type={inputType}
@@ -70,7 +70,7 @@ const Login = () => {
                 placeholder="Enter password" variant="outlined" size="small"/>
           </div>
          <p className="secondary-class text-center cursor-pointer">Forgot Password?</p>
-          <button className="primary-button my-35 cursor-pointer">Sign In</button>
+          <button className="primary-button mt-35 mb-15 cursor-pointer">Sign In</button>
           <button className="google-button cursor-pointer">
           <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_206_1170)">

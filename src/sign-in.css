@@ -39,16 +39,16 @@
   .mb-15 {
     margin-bottom: 15px;
   }
-  
+  .mt-35{
+    margin-top: 35px;
+  }
   .py-25 {
     padding-top: 25px;
     padding-bottom: 25px;
   }
-
   .pb-5{
     padding-bottom: 5px ;
   }
-  
   .my-35 {
     margin-top: 35px;
     margin-bottom: 35px;
@@ -100,12 +100,13 @@
   }
   
   .image-part, .main-part {
-    width: 90%;
+    width: 100%;
     height: 100%;
   }
   .image-part {
     width: 80%;
-    height: 100%;
+    height: 97.5%;
+    margin: 8px;
   }
   
   .image-part img{
@@ -116,23 +117,7 @@
   }
   
   .main-part {
-    padding: 90px 60px;
-  }
-  
-  .separator-wrapper {
-    width: 100%;
-  }
-  
-  .separator {
-    border: none;
-    border-bottom: 1px solid gainsboro;
-    width: 30%;
-  }
-  
-  .separator-wrapper p{
-    color: var(--lighterGray);
-    font-size: 12px;
-    width: 40%;
+    padding: 90px 100px;
   }
   
   .form-group {
@@ -153,11 +138,6 @@
     text-decoration: underline;
     justify-content: center;
   }
-  
-  .check-wrapper label{
-    color: var(--black);
-  }
-  
   
   .primary-button {
     background-color: var(--black);
@@ -186,6 +166,9 @@
     .main-part {
       padding: 30px 50px;
     }
+    .form-wrapper{
+        width: 86%;
+    }
     
   }
   
@@ -205,14 +188,22 @@
     .image-part {
       height: 250px;
     }
+    .form-wrapper{
+        width: 86%;
+    }
     
   }
   
   @media only screen and (max-width: 425px) {
-  
     .auth-card {
       width: 100%;
       border-radius: 0px;
     }
-  
+    .image-part {
+        visibility: hidden;
+        height: 0px;
+    }
+    .form-wrapper{
+        width: 76%;
+    }
   }
